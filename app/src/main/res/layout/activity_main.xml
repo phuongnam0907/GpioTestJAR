@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/getin1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get In_1"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/getin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get In_2"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/getin3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get In_3"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/getin4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get In_4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/setout1on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Out_1 ON"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/setout1off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Out_1 OFF"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/setout2on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Out_2 ON"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/setout2off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Out_2 OFF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Hello World!"
+            android:id="@+id/show"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
